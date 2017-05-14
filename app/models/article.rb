@@ -1,2 +1,3 @@
 class Article < ActiveRecord::Base
-end 
+  has_many :comments
+end
